@@ -33,7 +33,7 @@ print('hello cgi')
 
 4. custom path
 
-access path: http://localhost/cgi/python-first/advance/cgi.py
+access path: http://localhost/cgi/python-first/cgi/cgi.py
 
 ```
 Define SRVPATH "D:\source\pythonpath"
