@@ -33,3 +33,19 @@ print(map)
 
 map["python"] =100
 print(map)
+
+
+# map2  CRUD : https://www.linuxzen.com/python-you-ya-de-cao-zuo-zi-dian.html
+
+print("map2 ===========")
+
+
+map2 = dict(name="old",age=1)
+
+print(map2.get("name"))
+
+map2.update({"name":"new"})
+print(map2.get("name"))
+
+map2.pop("name")
+print(map2)
