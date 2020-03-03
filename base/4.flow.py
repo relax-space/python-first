@@ -32,3 +32,12 @@ newBooks=removeKey(mapBooks,"go")
 print(newBooks)
 
 
+d1 = []
+
+for index in range(0,345):
+    d1.append(str(index))
+print(d1)
+n = 100
+print([d1[i:i + n] for i in range(0, len(d1), n)])
+    
+
