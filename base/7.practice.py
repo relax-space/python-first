@@ -23,6 +23,28 @@ print(foodict)
 
 
 
-for i in range(1,30):
-    time.sleep(random.randint(1000,3000)/1000)
-    print(random.randint(1000,3000)/1000)
+# for i in range(1,30):
+#     time.sleep(random.randint(1000,3000)/1000)
+#     print(random.randint(1000,3000)/1000)
+
+
+class NameValueDto:
+    def __init__(self):
+        self.name =""
+        self.value=""
+
+names={"name1":"111","name2":"222"}
+for name,value in names.items():
+    if name =="name1":
+        names[name]="change"
+print(names)
+
+
+
+li = [{"name1":"111","name2":"222"},{"name1":"1111","name2":"2222"}]
+
+for l in li:
+    if l.get("name1") == "111":
+        l["name1"]="change"
+
+print(li)
