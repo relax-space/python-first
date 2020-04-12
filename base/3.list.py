@@ -1,6 +1,10 @@
 # 集合，字典
 
 # list  CRUD
+list2 = [1,2]
+print(list2)
+
+print("list ===========")
 
 list = ["go","python"]
 print(list)
